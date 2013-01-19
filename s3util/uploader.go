@@ -3,11 +3,11 @@ package s3util
 import (
 	"bytes"
 	"encoding/xml"
-	"github.com/kr/s3"
 	"io"
 	"log"
 	"net/http"
 	"net/url"
+	"s3"
 	"strconv"
 	"sync"
 	"syscall"

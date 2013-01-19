@@ -22,9 +22,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/kr/s3/s3util"
 	"io"
 	"os"
+	"s3/s3util"
 	"strings"
 )
 
